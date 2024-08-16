@@ -1,0 +1,358 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav>div {
+    display: flex;
+    gap: 15px;
+}
+
+.nav>div>select {
+    border: none;
+}
+
+.nav>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    background: #E31F26;
+    color: white;
+    border: none;
+}
+
+.img {
+    background-image: url(./img/interer-v-svetlyh-tonah-2\ 1.png);
+    height: 275px;
+}
+
+.img>div {
+    height: 275px;
+    background: #FFFFFFCC;
+    color: #213342;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 200px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.img>div>img {
+    position: absolute;
+    bottom: 40px;
+    margin-left: 500px;
+}
+
+.img>div>span {
+    display: flex;
+}
+
+.img>div>span>abbr {
+    color: #7798B5;
+}
+
+.box {
+    width: 980px;
+    height: 559px;
+    background: #213342;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 240px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.box>h4 {
+    margin: 15px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    gap: 15px;
+    color: white;
+    padding-left: 25px;
+}
+
+.grid>div {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid>div>select {
+    height: 40px;
+    width: 220px;
+    color: #7798B5;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.grid>div>input {
+    height: 40px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.grid>div>div {
+    display: flex;
+}
+
+.grid>div>div>input {
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    color: #7798B5;
+    border: none;
+
+}
+
+.grid>div>div>select {
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    color: #7798B5;
+}
+
+.box>button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background: #7798B5;
+    color: white;
+    margin-left: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+}
+
+.button>button {
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: inherit;
+    color: white;
+}
+
+.button>button:nth-child(2) {
+    width: 145px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: inherit;
+    color: white;
+}
+
+.button>button:nth-child(3) {
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: #E31F26;
+    color: white;
+}
+
+.card {
+    width: 980px;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    margin-left: 240px;
+    margin-top: 70px;
+    gap: 20px;
+    position: relative;
+}
+
+.card>div {
+    height: 458px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card>div:hover {
+    box-shadow: 0px 10px 50px 0px #7798B566;
+    transform: scale(1);
+}
+
+.card>div>pre {
+    color: #8295a6;
+}
+
+.card>div>p {
+    display: flex;
+    gap: 5px;
+}
+
+.card>div>p>span {
+    color: #E31F26;
+}
+
+.parts {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 450px;
+    color: #7798B5;
+    align-items: center;
+}
+
+.parts>p {
+    background: #7798B5;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parts>img {
+    width: 8px;
+    height: 14px;
+}
+
+.parts>span {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #7798B5;
+    color: #7798B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.box1 {
+    margin-left: 240px;
+    margin-top: 70px;
+    width: 980px;
+    height: 520px;
+    background-color: #213342;
+    color: white;
+    display: flex;
+    gap: 100px;
+    padding: 60px;
+}
+
+.box1>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* width: 400px; */
+    font-size: 20px;
+}
+
+.box1>div>button {
+    cursor: pointer;
+    border: none;
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #E31F26;
+    color: white;
+
+}
+
+.flex4 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main8 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #213342;
+}
+
+.main8>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E31F26;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    height: 402px;
+    background: #213342;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.foot {
+    display: flex;
+    gap: 40px;
+    width: 980px;
+}
+
+.foot>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer>img {
+    width: 980px;
+    bottom: 40px;
+    position: absolute;
+}
+
+.footer>p {
+    position: absolute;
+    bottom: 20px;
+}

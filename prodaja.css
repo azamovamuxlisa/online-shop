@@ -1,0 +1,664 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav>div {
+    display: flex;
+    gap: 15px;
+}
+
+.nav>div>select {
+    border: none;
+}
+
+.nav>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    background: #E31F26;
+    color: white;
+    border: none;
+}
+
+.img {
+    background-image: url(./img//giving-keys-to-apartment-owner\ 1.svg);
+    height: 275px;
+}
+
+.img>div {
+    height: 275px;
+    background: #FFFFFFCC;
+    color: #213342;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 200px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.img>div>img {
+    position: absolute;
+    bottom: 40px;
+    margin-left: 500px;
+}
+
+.img>div>span {
+    display: flex;
+}
+
+.img>div>span>abbr>a {
+    color: #7798B5;
+    text-decoration: none;
+}
+
+.img>div>span>abbr {
+    color: #7798B5;
+}
+
+.main2 {
+
+    display: flex;
+    gap: 20px;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.image {
+    background-image: url(./img/cart.svg);
+    width: 610px;
+    height: 456px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 930px;
+    height: 456px;
+    border-radius: 30px 0px 0px 30px;
+    background: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #213342;
+    font-size: 16px;
+}
+
+.text>p>b {
+    color: #E31F26;
+}
+
+.text>h2 {
+    width: 452px;
+}
+
+.text>p {
+    width: 560px;
+}
+
+.main {
+    height: 419px;
+    background-image: url(./img/city.svg);
+    margin-top: 70px;
+
+}
+
+.main>div {
+    height: 419px;
+    background-color: #213342CC;
+    color: white;
+    display: flex;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 740px;
+    padding-left: 100px;
+}
+
+.content>button {
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #E31F26;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+.carts {
+    position: relative;
+    width: 700px;
+    display: flex;
+}
+
+.exact {
+    position: absolute;
+    display: flex;
+    position: relative;
+    width: 113px;
+    height: 47px;
+    top: 50px;
+    left: 0px;
+}
+
+.exact>p {
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.exact>img {
+    position: absolute;
+
+}
+
+.exact>span {
+    width: 109px;
+    height: 24px;
+    background-color: white;
+    color: #213342;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    margin-top: 4px;
+
+}
+
+.exact1 {
+    position: absolute;
+    display: flex;
+    position: relative;
+    width: 113px;
+    height: 47px;
+    top: 70px;
+    left: 60px;
+}
+
+.exact1>p {
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.exact1>img {
+    position: absolute;
+
+}
+
+.exact1>span {
+    width: 109px;
+    height: 24px;
+    background-color: white;
+    color: #213342;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    margin-top: 4px;
+
+}
+
+.exact2 {
+    position: absolute;
+    display: flex;
+    position: relative;
+    width: 113px;
+    height: 47px;
+    top: 53px;
+    left: 110px;
+}
+
+.exact2>p {
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.exact2>img {
+    position: absolute;
+
+}
+
+.exact2>span {
+    width: 109px;
+    height: 24px;
+    background-color: white;
+    color: #213342;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    margin-top: 4px;
+
+}
+
+.exact3 {
+    position: absolute;
+    display: flex;
+    position: relative;
+    width: 113px;
+    height: 47px;
+    top: 203px;
+    left: 120px;
+}
+
+.exact3>p {
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.exact3>img {
+    position: absolute;
+
+}
+
+.exact3>span {
+    width: 109px;
+    height: 24px;
+    background-color: white;
+    color: #213342;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    margin-top: 4px;
+
+}
+
+.exact4 {
+    position: absolute;
+    display: flex;
+    position: relative;
+    width: 113px;
+    height: 47px;
+    top: 303px;
+    left: 120px;
+}
+
+.exact4>p {
+    background-color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.exact4>img {
+    position: absolute;
+
+}
+
+.exact4>span {
+    width: 109px;
+    height: 24px;
+    background-color: white;
+    color: #213342;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    margin-top: 4px;
+
+}
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #F9F9FA;
+    height: 1626px;
+    justify-content: center;
+    align-items: center;
+    color: #213342;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 610px);
+    gap: 40px;
+
+}
+
+.grid>div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    color: #213342;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+.grid>div>img {
+    width: 52.86px;
+    height: 60px;
+}
+
+.main1>span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.card3 {
+    width: 927px;
+    height: 240px;
+    border-radius: 10px;
+    background: #213342;
+    display: flex;
+    padding: 40px;
+    color: white;
+    gap: 100px;
+    position: relative;
+}
+
+.card3>div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card3>div>input {
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.card3>div>form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card3>div>form>input {
+    width: 24px;
+    height: 24px;
+}
+
+.card3>div>div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card3>div>div>p {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    color: #213342;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3>div>div>span {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    color: #213342;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3>button {
+    width: 140px;
+    height: 40px;
+    background-color: #E31F26;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    border: none;
+}
+
+.main4 {
+    display: flex;
+    gap: 90px;
+    margin-right: 200px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.image1 {
+    width: 465px;
+    height: 611px;
+    border-radius: 10px;
+    position: absolute;
+    left: 700px;
+    top: 130px;
+}
+
+.text1 {
+    width: 930px;
+    height: 742px;
+    border-radius: 0px 30px 30px 0px;
+    background: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 50px;
+    padding-left: 200px;
+    color: #213342;
+}
+
+.text1>p>b {
+    color: #E31F26;
+}
+
+.text1>h2 {
+    width: 452px;
+}
+
+.text1>p {
+    width: 500px;
+}
+
+.grid>div>p {
+    font-size: 50px;
+    color: #E31F26;
+}
+
+.f {
+    width: 1260px;
+}
+
+.nash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    height: 242px;
+    gap: 50px;
+    color: #213342;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.flex>div {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #213342;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.flex>div>img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.main6 {
+
+    display: flex;
+    gap: 20px;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.image3 {
+    background-image: url(./img/couple.svg);
+    width: 610px;
+    height: 456px;
+    border-radius: 10px;
+}
+
+.text2 {
+    width: 930px;
+    height: 456px;
+    border-radius: 30px 0px 0px 30px;
+    background: #F9F9FA;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: #213342;
+    font-size: 16px;
+}
+
+.text2>p>b {
+    color: #E31F26;
+}
+
+.text2>h2 {
+    width: 452px;
+}
+
+.text2>p {
+    width: 560px;
+}
+.main8 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #213342;
+    margin-top: 50px;
+}
+
+.main8>button {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E31F26;
+    border: none;
+}
+
+.footer {
+    height: 492px;
+    background: #213342;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.foot {
+    display: flex;
+    gap: 40px;
+    width: 980px;
+}
+
+.foot>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer>img {
+    width: 980px;
+    bottom: 40px;
+    position: absolute;
+}
+
+.footer>p {
+    position: absolute;
+    bottom: 20px;
+}
